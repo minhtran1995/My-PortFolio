@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Some Icon PLS-->
+    <link href="img/favicon.ico" rel="icon" type="image/x-icon" />
+    <title>
+        <%=name %> Portfolio</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!--PieChart-->
+    <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>-->
+    <script type="text/javascript" src="js/jquery.easy-pie-chart.js"></script>
+    <script type="text/javascript" src="js/chartConfig.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/jquery.easypiechart.css">
+
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+
+
+
+
+
+
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+
+
+
+</head>
+<!-- The #page-top ID is part of the scrolling feature -->
+<!-- the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+<!-- They display the location where user is watching-->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top navbarStyle navFont " role="navigation">
+        <div class="container navFont">
+            <!--this is for responsive design-->
+            <div class="navbar-header page-scroll ">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand navFont page-scroll" href="#page-top">Home</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse navFont">
+                <ul class="nav navbar-nav ">
+                    <li>
+                        <a class="page-scroll" href="#about">About Me</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#skill">Skills</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#credit">Credit</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/contact">Keep In Touch</a>
+                    </li>
+
+                    <!--Testing nested nav-->
+                    <!--
+                  <li class="dropdown">
+                     <a class="dropdown-toggle page-scroll" data-toggle="dropdown" href="#">Testing Section<span class="caret"></span></a>
+                     <ul class="dropdown-menu">
+                        <li><a href="#section41">Child 1</a></li>
+                        <li><a href="#section42">Child 2</a></li>
+                     </ul>
+                     -->
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- Introduction-->
+    <section id="intro" class="intro-section">
+        
+
+        <div class="IntroContainer">
+
+
+
+            <div class="col-lg-12 introWrap">
+
+<script src="js/typed.js"></script>
+        <script src="js/typingAnimation.js"></script>
+
+        <div class="col-lg-12 typingAnimation">
+            <div class="element"></div>
+        </div>
+
+                <p class="introText wow bounceInUp">Welcome To My Portfolio</p>
+                <p class="introSubText wow bounceIn">It's good to see you here</p>
+
+                <hr>
+
+
+
+
+
+                <a href="#about" class="page-scroll btn btn-primary btn-lg wow bounceInLeft introBtn">
+                    <span class="glyphicon glyphicon-flash"></span> Get To Know Me
+                </a>
+
+
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+
+            <div class="col-lg-12 ">
+                <div id="aboutMe-Content" class="container">
+
+                    <h1 class="wow bounceInRight">About Me</h1>
+
+                    <div class="col-md-4">
+                        <span class="glyphicon glyphicon-signal"></span>
+                    </div>
+
+                    <img src="<%= myPic %>" class="wow fadeInDown img-circle col-md-4 " />
+
+                    <div class="col-md-4">
+                        <span class="glyphicon glyphicon-headphones"></span>
+                    </div>
+
+                    <p class="wow zoomIn col-lg-12 description">My name is Minh Tran, You can call me Michael. I was born and raised in Ha Noi, Viet Nam. I came to Toronto,
+                        Canada in 2012 and finished my Post-Seondary education at Centennial College. Having all the knowledge
+                        from the Software Engineering diploma, I believe I will be able to explore more into the technology
+                        world, and share my passion with others.</p>
+                </div>
+
+            </div>
+
+    </section>
+
+
+
+    <section id="buffer2" class="buffer2">
+
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+
+            <div class="col-lg-12">
+                <h1 class="wow bounceInDown">Projects</h1>
+
+                <div class="container">
+                    <br>
+                    <div id="myCarousel" class="carousel slide wow bounceInUp" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+
+                            <div class="item active">
+                                <img src="img/p0.png" alt="Chania">
+                                <div class="carousel-caption">
+                                    <h2>Express Portfolio</h2>
+                                    <p>My Custom Built Portfolio That Help Me Be Ready For Career !</p>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <img src="img/p1.png" alt="Chania">
+                                <div class="carousel-caption">
+                                    <h3>The Midnight Meat Train</h3>
+                                    <p>The Web Game I Built With CreateJS. Inspired By The Same Movie</p>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <img src="img/p2.jpg" alt="Flower">
+                                <div class="carousel-caption">
+                                    <h3>Fun Quiz</h3>
+                                    <p>The Quiz Project Was Developed By Me And My Partner Using JSP and Servlets (Java EE)</p>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+    <section id="buffer3" class="buffer3">
+        <!--Just a picture for displaying-->
+    </section>
+
+    <!-- Skill Section -->
+    <section id="skill" class="skill-section">
+        <div class="container">
+
+            <div class="col-lg-12">
+                <div class="container skillWrap">
+
+                    <h1 class="wow flipInX skillHeader">My Skills</h1>
+
+
+
+
+                    <div class="chartBG wow lightSpeedIn chart col-md-3 " data-percent="75">
+                        <p class="percent">JavaScript</p><span class="percent"></span></div>
+
+                    <div class="chartBG wow rotateInDownRight chart col-md-3 chartBG" data-percent="85">
+                        <p class="percent">HTML</p><span class="percent"></span></div>
+
+                    <div class="chartBG wow rotateInUpLeft chart col-md-3 chartBG" data-percent="80">
+                        <p class="percent">CSS</p><span class="percent"></span></div>
+
+                    <div class="chartBG wow slideInRight chart col-md-3 chartBG" data-percent="70">
+                        <p class="percent">C#</p><span class="percent"></span></div>
+                    <br>
+
+                    <div style="margin-top: 100px;" class="col-md-12">
+                        <p class=" wow lightSpeedIn col-md-2 skillLable skillProgress">Java SE/EE</p>
+                        <div class="wow fadeInRight col-md-10 progress skillProgress">
+                            <div class=" progress-bar progress-bar-striped progress-bar-success active" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                            aria-valuemax="100" style="width:80%">
+                                80%
+                            </div>
+                        </div>
+
+                        <p class="wow lightSpeedIn col-md-2 skillLable skillProgress">SQL</p>
+                        <div class="wow fadeInRight col-md-10 progress skillProgress">
+                            <div class=" progress-bar progress-bar-striped progress-bar-success active" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                            aria-valuemax="100" style="width:85%;">
+                                85%
+                            </div>
+                        </div>
+
+                        <p class="wow lightSpeedIn col-md-2 skillLable skillProgress">REST API</p>
+                        <div class="wow fadeInRight col-md-10 progress skillProgress">
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
+                            style="width:70%">
+                                70%
+                            </div>
+                        </div>
+
+                        <p class="wow lightSpeedIn col-md-2 skillLable skillProgress">Social Skills</p>
+                        <div class="wow fadeInRight col-md-10 progress skillProgress">
+                            <div class=" progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                            aria-valuemax="100" style="width:65%">
+                                70%
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section id="buffer4" class="buffer4">
+        <!--Just a picture for displaying-->
+    </section>
+    <!-- credit Section -->
+    <section id="credit" class="credit-section">
+        <div class="container">
+
+            <div class="col-lg-12">
+                <h1>credit Section</h1>
+
+
+            </div>
+
+        </div>
+    </section>
+
+</body>
+
+</html>

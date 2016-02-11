@@ -1,0 +1,112 @@
+.navbarStyle{
+    background: #000000; 
+    opacity: 0.7;  
+    
+}
+
+.navFont{
+    font-family: 'Raleway', 'sans-serif';    
+    color:white;   
+    font-size: 18px;
+    font-weight: 800; 
+}
+
+.introText{    
+    
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    color: whitesmoke;  
+     
+}
+
+hr{
+    width: 500px;
+}
+
+.introWrap{
+    margin-top: 10%;
+    position: relative;
+    top: 50%;
+    
+    
+}
+
+.introSubText{
+   
+    font-family: 'Raleway', sans-serif;
+    font-size: 70px;
+    
+    color: whitesmoke;
+}
+
+.IntroContainer{    
+    
+    width: 100%;
+    height: 100%;
+    margin:auto;
+    
+}
+
+.introBtn{
+    opacity: 0.8;
+}
+
+
+.description{
+    margin-top: 10%;
+    margin-bottom:  5%;
+}
+.skillProgress{
+    margin-top: 20px;
+    padding-left: 0px;    
+}
+
+.skillLable{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.glyphicon.glyphicon-signal {
+    margin-top: 15%;
+    font-size: 250px;
+}
+
+.glyphicon.glyphicon-headphones {
+    font-size: 250px;
+    margin-top: 15%;
+}
+
+.typingAnimation {
+    margin-top: 5%;
+    color:#ff7043;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+}
+
+.element{
+    display: inline-block;
+}
+
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
