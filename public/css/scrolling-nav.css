@@ -113,6 +113,7 @@ of those sections to manage the look and feel of the site. */
 
 .skillWrap{
     padding-top: 10%; 
+    padding-bottom: 10%;
 }
 
 .skillHeader{
@@ -122,5 +123,14 @@ of those sections to manage the look and feel of the site. */
 .credit-section {
     min-height: 100%;
     text-align: center;
-    background: #eee;
+    background-color:#ffad33; 
+      
+    
+}
+
+.creditWrap{
+    color: white;    
+    padding-top: 5%; 
+    font-family: 'Raleway', 'sans-serif'; 
+
 }

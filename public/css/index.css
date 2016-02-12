@@ -81,7 +81,7 @@ hr{
     margin-top: 5%;
     color:#ff7043;
     font-family: 'Raleway', sans-serif;
-    font-size: 40px;
+    font-size: 55px;
 }
 
 .element{
@@ -110,3 +110,46 @@ hr{
     50% { opacity:0; }
     100% { opacity:1; }
 }
+
+.creditWrap h1{
+    color:#003311;
+    font-weight: 700;
+}
+
+.creditWrap h3{
+    color:#003311;
+    font-weight: 700;
+}
+
+.creditWrap .glyphicon {
+   font-size: 150px;
+   margin-top: 15%;
+   
+   color:#ff1a1a;
+   -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.creditWrap .glyphicon:hover {
+   color:#3366ff;
+   
+   /* Rotate div */
+    -ms-transform: rotate(360deg); /* IE 9 */
+    -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+    transform: rotate(360deg);
+    
+}
+
+.iconWrap a{
+    color:#ff1a1a;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.iconWrap a:hover{
+    color:#3366ff;
+    text-decoration: none;
+}
+
+
