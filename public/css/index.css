@@ -147,6 +147,12 @@ hr{
     font-weight: 700;
 }
 
+.iconWrap a:visited{
+    text-decoration: none;
+}
+
+
+
 .iconWrap a:hover{
     color:#3366ff;
     text-decoration: none;
