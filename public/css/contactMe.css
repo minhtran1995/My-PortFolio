@@ -1,0 +1,44 @@
+
+
+body{
+    background: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+    color:#2c3e50;
+    margin: auto;
+    width:100%;
+    padding-top: 2%;
+}
+
+input{
+    margin-bottom: 5%;
+}
+
+button{
+    display: block;
+    width: 100%;    
+}
+
+.line{
+    padding: 0;
+    border: none;
+    border-top: solid 5px;
+    text-align: center;
+    max-width: 250px;
+    margin: 25px auto 30px;
+}
+
+
+.form-control-feedback{
+    right: 2%;
+}
+
+button .glyphicon{
+    font-size:  18px;
+}
+
