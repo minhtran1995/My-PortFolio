@@ -1,11 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!--
+ *******************************************************************************
+ * Source file name : index.ejs                                                *
+ * Author's name : Duc Minh Tran (300771859)                                   *
+ * Last Modified by : Duc Minh Tran (300771859)                                *
+ * Last Modified date : Feb 13, 2016                                           *
+ * Website name: Michael Portfolio                                             *
+ * File Description: Home Page                                                 *
+ *******************************************************************************
+-->
+
+
+
 <head>
     <!--Some Icon PLS-->
     <link href="img/favicon.ico" rel="icon" type="image/x-icon" />
     <title>
-        <%=name %> Portfolio</title>
+        <%=name %> Portfolio
+    </title>
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -18,26 +32,6 @@
     <script src="js/jquery.js"></script>
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
-    <!--PieChart-->
-    <!--<script type="text/javascript" src="js/jquery.min.1.7.2.js"></script>-->
-    <script type="text/javascript" src="js/jquery.easy-pie-chart.js"></script>
-    <script type="text/javascript" src="js/chartConfig.js"></script>
-
-    <link rel="stylesheet" type="text/css" href="css/jquery.easypiechart.css">
-
-    <link rel="stylesheet" href="css/animate.css">
-    <script src="js/wow.min.js"></script>
-    <script>
-        new WOW().init();
-    </script>
-
-
-
-
-
-
-
 
     <!-- Scrolling Nav JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
@@ -108,15 +102,14 @@
 
             <div class="col-lg-12 introWrap">
 
-                <script src="js/typed.js"></script>
-                <script src="js/typingAnimation.js"></script>
 
-                <div class="col-lg-12 typingAnimation">
-                    <div class="element"></div>
+
+                <div class="col-lg-12 ">
+                    <div class="element">Hello !</div>
                 </div>
 
-                <p class="introText wow bounceInUp">Welcome To My Portfolio</p>
-                <p class="introSubText wow bounceIn">It's good to see you here</p>
+                <p class="introText ">Welcome To My Portfolio</p>
+                <p class="introSubText ">It's good to see you here</p>
 
                 <hr>
 
@@ -124,7 +117,7 @@
 
 
 
-                <a href="#about" class="page-scroll btn btn-primary btn-lg wow bounceInLeft introBtn">
+                <a href="#about" class="page-scroll btn btn-primary btn-lg  introBtn">
                     <span class="glyphicon glyphicon-flash"></span> Get To Know Me
                 </a>
 
@@ -146,19 +139,19 @@
             <div class="col-lg-12 ">
                 <div id="aboutMe-Content" class="container">
 
-                    <h1 class="wow bounceInRight">About Me</h1>
+                    <h1 class="">About Me</h1>
 
                     <div class="col-md-4">
                         <span class="glyphicon glyphicon-signal"></span>
                     </div>
 
-                    <img src="<%= myPic %>" class="wow fadeInDown img-circle col-md-4 " />
+                    <img src="<%= myPic %>" class=" img-circle col-md-4 " />
 
                     <div class="col-md-4">
                         <span class="glyphicon glyphicon-headphones"></span>
                     </div>
 
-                    <p class="wow zoomIn col-lg-12 description">My name is Minh Tran, You can call me Michael. I was born and raised in Ha Noi, Viet Nam. I came to Toronto,
+                    <p class=" col-lg-12 description">My name is Minh Tran, You can call me Michael. I was born and raised in Ha Noi, Viet Nam. I came to Toronto,
                         Canada in 2012 and finished my Post-Seondary education at Centennial College. Having all the knowledge
                         from the Software Engineering diploma, I believe I will be able to explore more into the technology
                         world, and share my passion with others.</p>
@@ -179,11 +172,11 @@
         <div class="container">
 
             <div class="col-lg-12">
-                <h1 class="wow bounceInDown">Projects</h1>
+                <h1 class="">Projects</h1>
 
                 <div class="container">
                     <br>
-                    <div id="myCarousel" class="carousel slide wow bounceInUp" data-ride="carousel">
+                    <div id="myCarousel" class="carousel slide " data-ride="carousel">
                         <!-- Indicators -->
                         <ol class="carousel-indicators">
                             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -252,51 +245,40 @@
             <div class="col-lg-12">
                 <div class="container skillWrap">
 
-                    <h1 class="wow flipInX skillHeader">My Skills</h1>
+                    <h1 class="skillHeader">My Skills</h1>
+
+                    <div><img src="img/mySkills.png"></div>
 
 
 
-
-                    <div class="chartBG wow lightSpeedIn chart col-md-3 " data-percent="75">
-                        <p class="percent">JavaScript</p><span class="percent"></span></div>
-
-                    <div class="chartBG wow rotateInDownRight chart col-md-3 chartBG" data-percent="85">
-                        <p class="percent">HTML</p><span class="percent"></span></div>
-
-                    <div class="chartBG wow rotateInUpLeft chart col-md-3 chartBG" data-percent="80">
-                        <p class="percent">CSS</p><span class="percent"></span></div>
-
-                    <div class="chartBG wow slideInRight chart col-md-3 chartBG" data-percent="70">
-                        <p class="percent">C#</p><span class="percent"></span></div>
-                    <br>
 
                     <div style="margin-top: 100px;" class="col-md-12">
-                        <p class=" wow lightSpeedIn col-md-2 skillLable skillProgress">Java SE/EE</p>
-                        <div class="wow fadeInRight col-md-10 progress skillProgress">
+                        <p class=" col-md-2 skillLable skillProgress">Java SE/EE</p>
+                        <div class=" col-md-10 progress skillProgress">
                             <div class=" progress-bar progress-bar-striped progress-bar-success active" role="progressbar" aria-valuenow="80" aria-valuemin="0"
                             aria-valuemax="100" style="width:80%">
                                 80%
                             </div>
                         </div>
 
-                        <p class="wow lightSpeedIn col-md-2 skillLable skillProgress">SQL</p>
-                        <div class="wow fadeInRight col-md-10 progress skillProgress">
+                        <p class=" col-md-2 skillLable skillProgress">SQL</p>
+                        <div class=" col-md-10 progress skillProgress">
                             <div class=" progress-bar progress-bar-striped progress-bar-success active" role="progressbar" aria-valuenow="85" aria-valuemin="0"
                             aria-valuemax="100" style="width:85%;">
                                 85%
                             </div>
                         </div>
 
-                        <p class="wow lightSpeedIn col-md-2 skillLable skillProgress">REST API</p>
-                        <div class="wow fadeInRight col-md-10 progress skillProgress">
+                        <p class=" col-md-2 skillLable skillProgress">REST API</p>
+                        <div class=" col-md-10 progress skillProgress">
                             <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
                             style="width:70%">
                                 70%
                             </div>
                         </div>
 
-                        <p class="wow lightSpeedIn col-md-2 skillLable skillProgress">Social Skills</p>
-                        <div class="wow fadeInRight col-md-10 progress skillProgress">
+                        <p class=" col-md-2 skillLable skillProgress">Social Skills</p>
+                        <div class=" col-md-10 progress skillProgress">
                             <div class=" progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="70" aria-valuemin="0"
                             aria-valuemax="100" style="width:65%">
                                 70%
@@ -323,51 +305,51 @@
                 <div class="creditWrap">
                     <h1>Credit</h1>
                     <h3>The Website Is Developed Based On These Following Technologies</h3>
-                    
-                   <div class="wow bounceInLeft col-md-4 iconWrap">
-                   <a target="_blank" href="http://getbootstrap.com/">
-          <span class="glyphicon glyphicon-play-circle"></span>
-          <p>Bootstrap</p>
-        </a>
-                   </div>
-                   
-                   <div class="wow bounceInUp col-md-4 iconWrap">
-                   <a target="_blank"  href="https://jquery.com/">
-          <span class="glyphicon glyphicon-flag"></span>
-          <p>Jquery</p>
-        </a>
-                   </div>
-                   
-                   <div class="wow bounceInRight col-md-4 iconWrap">
-                   <a target="_blank"  href="https://rendro.github.io/easy-pie-chart/">
-          <span class="glyphicon glyphicon-camera"></span>
-          <p>Easy Pie Chart</p>
-        </a>
-                   </div>
-                   
-                   <div class="wow bounceInLeft col-md-4 iconWrap">
-                   <a target="_blank"  href="http://www.mattboldt.com/demos/typed-js/">
-          <span class="	glyphicon glyphicon-adjust"></span>
-          <p>Typed JS</p>
-        </a>
-                   </div>
-                   
-                   <div class="wow bounceInUp col-md-4 iconWrap">
-                   <a target="_blank"  href="http://mynameismatthieu.com/WOW/">
-          <span class="glyphicon glyphicon-fire"></span>
-          <p>WoW JS</p>
-        </a>
-                   </div>
-                   
-                   <div class="wow bounceInRight col-md-4 iconWrap">
-                   <a  target="_blank"  href="https://daneden.github.io/animate.css/">
-          <span class="glyphicon glyphicon-calendar"></span>
-          <p>Animate Css</p>
-        </a>
-                   </div>
-                    
-                    
-                    
+
+                    <div class="col-md-4 iconWrap">
+                        <a target="_blank" href="http://getbootstrap.com/">
+                            <span class="glyphicon glyphicon-play-circle"></span>
+                            <p>Bootstrap</p>
+                        </a>
+                    </div>
+
+                    <div class=" col-md-4 iconWrap">
+                        <a target="_blank" href="https://jquery.com/">
+                            <span class="glyphicon glyphicon-flag"></span>
+                            <p>Jquery</p>
+                        </a>
+                    </div>
+
+                    <div class=" col-md-4 iconWrap">
+                        <a target="_blank" href="https://rendro.github.io/easy-pie-chart/">
+                            <span class="glyphicon glyphicon-camera"></span>
+                            <p>Easy Pie Chart</p>
+                        </a>
+                    </div>
+
+                    <div class=" col-md-4 iconWrap">
+                        <a target="_blank" href="http://www.mattboldt.com/demos/typed-js/">
+                            <span class="	glyphicon glyphicon-adjust"></span>
+                            <p>Typed JS</p>
+                        </a>
+                    </div>
+
+                    <div class=" col-md-4 iconWrap">
+                        <a target="_blank" href="http://mynameismatthieu.com/WOW/">
+                            <span class="glyphicon glyphicon-fire"></span>
+                            <p>WoW JS</p>
+                        </a>
+                    </div>
+
+                    <div class=" col-md-4 iconWrap">
+                        <a target="_blank" href="https://daneden.github.io/animate.css/">
+                            <span class="glyphicon glyphicon-calendar"></span>
+                            <p>Animate Css</p>
+                        </a>
+                    </div>
+
+
+
                 </div>
 
             </div>
@@ -375,10 +357,12 @@
         </div>
     </section>
 
-<section class="copyright-section col-md-12 ">
-<div class="container">
-<div class=copyright>
-Copyright &#169; 2016 Michael Tran </div></div></section>
+    <section class="copyright-section col-md-12 ">
+        <div class="container">
+            <div class=copyright>
+                Copyright &#169; 2016 Michael Tran </div>
+        </div>
+    </section>
 </body>
 
 </html>

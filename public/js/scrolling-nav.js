@@ -1,3 +1,17 @@
+ /*
+ *******************************************************************************
+ * Source file name : scrolling-nav.js                                         *
+ * Author's name : internet source                                             *
+ * Last Modified by : Duc Minh Tran (300771859)                                *
+ * Last Modified date : Feb 13, 2016                                           *
+ * Website name: Michael Portfolio                                             *
+ * File Description: scrolling animation                                       *
+ *******************************************************************************
+*/
+
+
+
+
 //jQuery to collapse the navbar on scroll
 $(window).scroll(function() {
     if ($(".navbar").offset().top > 50) {

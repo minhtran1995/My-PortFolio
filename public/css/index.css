@@ -1,3 +1,15 @@
+ /*
+ *******************************************************************************
+ * Source file name : index.css                                                *
+ * Author's name : Duc Minh Tran (300771859)                                   *
+ * Last Modified by : Duc Minh Tran (300771859)                                *
+ * Last Modified date : Feb 13, 2016                                           *
+ * Website name: Michael Portfolio                                             *
+ * File Description: style sheet for home page                                 *
+ *******************************************************************************
+*/
+
+
 .navbarStyle{
     background: #000000; 
     opacity: 0.7;  
@@ -77,39 +89,16 @@ hr{
     margin-top: 15%;
 }
 
-.typingAnimation {
+.element{
+    display: inline-block;
     margin-top: 5%;
     color:#ff7043;
     font-family: 'Raleway', sans-serif;
     font-size: 55px;
 }
 
-.element{
-    display: inline-block;
-}
 
 
-.typed-cursor{
-    opacity: 1;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
-}
-@keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-webkit-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-moz-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
 
 .creditWrap h1{
     color:#003311;

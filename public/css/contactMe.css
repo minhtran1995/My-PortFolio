@@ -1,5 +1,13 @@
-
-
+ /*
+ *******************************************************************************
+ * Source file name : contactMe.css                                            *
+ * Author's name : Duc Minh Tran (300771859)                                   *
+ * Last Modified by : Duc Minh Tran (300771859)                                *
+ * Last Modified date : Feb 13, 2016                                           *
+ * Website name: Michael Portfolio                                             *
+ * File Description: style sheet for contact page                              *
+ *******************************************************************************
+*/
 body{
     background: white;
     font-family: 'Montserrat', sans-serif;
@@ -18,6 +26,8 @@ p{
 input{
     margin-bottom: 5%;
 }
+
+
 
 button{
     display: block;
