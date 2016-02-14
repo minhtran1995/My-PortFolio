@@ -44,7 +44,7 @@
 <!-- the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 <!-- They display the location where user is watching-->
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body onload="myMessage()" id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top navbarStyle navFont " role="navigation">
         <div class="container navFont">
@@ -367,6 +367,18 @@
                 Copyright &#169; 2016 Michael Tran </div>
         </div>
     </section>
+    
+    
+    <script>
+function myMessage() {
+    alert("*note: \nMy App Contain 2 views, which are index.ejs and contactMe.ejs"+ 
+    "\nTo view index.ejs, please Click on 'Home'."+
+    "\nTo view contactMe.ejs, please Click on 'Keep In Touch'."+
+    "\n\n\nAll other information are displayed within index.ejs (about me, my skills, my projects...)"+
+    "\nmy index.server.routes.js will route the request to index.ejs or contactMe.ejs"+
+    "\nThank You for reading this :)");
+}
+</script>
 </body>
 
 </html>
